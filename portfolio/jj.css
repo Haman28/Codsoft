@@ -1,0 +1,488 @@
+/* Remove margin and padding for all elements to reset default behavior */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and border are included in element's total width/height */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Set a default font for the body */
+}
+
+nav {
+    backdrop-filter: blur(100px);
+    box-shadow: 10px 0px 30px rgba(207, 28, 27, 0.37);
+    border: 2px solid rgba(225, 25, 20, 0.08);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1000;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 750px; /* Remove the default margin */
+    padding: 0; /* Remove padding */
+    list-style-type: none; /* Remove bullet points */
+}
+
+nav li {
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-left: 800px;
+    margin-top: 100px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+
+}
+
+h1 {
+    color: darkslateblue;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 50px;
+    font-family: cursive;
+    position: absolute;
+    top: 270px;
+    left: 120px;
+}
+
+h2 {
+    color:darkcyan;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 50px;
+    font-family: 'Lucida Sans', sans-serif;
+    position: absolute;
+    top: 330px;
+    left: 150px;
+}
+
+.progress-container {
+    width: 40%;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 960px;
+    left: 700px;
+    margin: 0; /* Remove margin */
+}
+.progress--container {
+    width: 40%;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 1060px;
+    left: 700px;
+    margin: 0; /* Remove margin */
+}
+.progresscontainer {
+    width: 40%;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 1160px;
+    left: 700px;
+    margin: 0; /* Remove margin */
+}
+
+
+
+.progress-bar {
+    width: 90%;
+    height: 10px;
+    background-color:cadetblue;
+    border-radius: 50px;
+}
+.progress--bar {
+    width: 70%;
+    height: 10px;
+    background-color:cadetblue;
+    border-radius: 50px;
+}
+.progressbar {
+    width: 60%;
+    height: 10px;
+    background-color:cadetblue;
+    border-radius: 50px;
+}
+
+p {
+    color: black;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.mmm{
+position: absolute;
+top: 500px;
+left: 50px;
+margin-left: 200px;
+
+}
+.mmmm{
+position: absolute;
+top: 500px;
+left: 50px;
+margin-left: 140px;
+}
+.mm{
+position: absolute;
+top: 500px;
+left: 50px;
+margin-left: 260px;
+}
+.mmmmm{
+position: absolute;
+top: 500px;
+left: 50px;
+margin-left:320px;
+}
+.m{
+position: absolute;
+top: 500px;
+left: 50px;
+margin-left: 380px;
+background: none;
+}
+h3 {
+    color:black;
+    font-weight: 600;
+    font-size: 30px;
+    text-shadow: 50px;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    text-decoration: dotted;
+}
+h4 {
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 50px;
+    position: absolute;
+    top: 900px;
+    left: 750px;
+    text-decoration: dotted;
+}
+
+h5 {
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 50px;
+    position: absolute;
+    top: 1000px;
+    left:750px;
+    text-decoration: dotted;
+}
+
+h6 {
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: 50px;
+    position: absolute;
+    top: 1100px;
+    left: 750px;
+    text-decoration: dotted;
+}
+.zzz{
+    background-color: gainsboro; 
+    height: 3000px;
+
+}
+.ff {
+display: block; /* Ensure it's visible */
+visibility: visible; /* Make sure it's not hidden */
+opacity: 1; /* Ensure it's fully visible */
+
+
+    color:cornflowerblue;
+    font-weight: 600;
+         position: absolute;
+    top: 590px;
+    left: 150px;
+
+    background-color: #333367;
+        color: white;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+padding: 10px 20px;
+
+}
+.f {
+font-weight: 600;
+
+display: block; /* Ensure it's visible */
+visibility: visible; /* Make sure it's not hidden */
+opacity: 1; /* Ensure it's fully visible */
+
+
+background-color: #333367;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+    position: absolute;
+    top: 590px;
+    left: 350px;
+    text-decoration: dotted;
+}
+.profile{
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    width: 500px;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+ 
+   
+
+}
+.pp{  position: absolute;
+    top: 1300px;
+    left: 850px;
+    width: 400px;
+    border-radius: 5px;
+    height: 400px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 5px solid #333;
+    display: block;
+ .a{
+     position: absolute;
+    top: 1300px;
+    left: 30px;
+    width: 100px;
+    border-radius: 5px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #333;
+    display: block;
+    display: block; /* Ensure it's visible */
+visibility: visible; /* Make sure it's not hidden */
+opacity: 1; /* Ensure it's fully visible */
+
+
+ }
+ .b{
+     position: absolute;
+    top: 1300px;
+    left: 40px;
+    width: 500px;
+    border-radius: 5px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    display: block; /* Ensure it's visible */
+visibility: visible; /* Make sure it's not hidden */
+opacity: 1; /* Ensure it's fully visible */
+
+
+ }
+ .c{
+     position: absolute;
+    top: 1300px;
+    left: 50px;
+    width: 500px;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #333;
+    display: block;
+    display: block; /* Ensure it's visible */
+visibility: visible; /* Make sure it's not hidden */
+opacity: 1;
+
+ }
+ .d{
+     position: absolute;
+    top: 1300px;
+    left: 60px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    display: block; 
+visibility: visible; 
+opacity: 1; 
+
+ }
+ .e{
+     position: absolute;
+    top: 1300px;
+    left: 70px;
+    width: 500px;
+    border-radius: 5px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #333;
+    display: block;
+    display: block;
+visibility: visible;
+opacity: 1; 
+
+ }
+ .h{
+     position: absolute;
+    top: 1700px;
+    left: 90px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    display: block; 
+visibility: visible;
+opacity: 1;
+
+ }
+}
+.l{color:black;
+    position: absolute;
+    top: 1420px;
+    left: 250px;
+    font-size: 30px;
+    font-weight: 500px;
+
+}
+.n{ color:black;
+position: absolute;
+    top: 1480px;
+    left:50px;
+    font-size: 15px;
+    font-weight:100;
+}
+.yy{color:black;
+position: absolute;
+    top: 1500px;
+    left:-5px;
+    font-size: 15px;
+
+}
+.r{ position: absolute;
+    top: 1610px;
+    left:100px;
+    gap: 80px;
+
+}
+.section {
+display: flex; 
+gap: 50px; 
+padding: 20px;
+background-color:seashell;
+border: 1px solid #ddd;
+width: 800px;
+position: absolute;
+    top: 200px;
+    left:100px;
+    gap: 80px;
+    height: 400px;
+}
+
+.item {
+flex: 1;
+background-color: lightblue;
+padding: 20px;
+text-align: center;
+border: 1px solid #ccc;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+height: 350px;
+}
+.ll{
+
+width: 700px;
+height: 300px;
+}
+#hoverText {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(20px); 
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    border: 3px solid white;
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.dd{
+    position: absolute;
+    top: 150px;
+    left:400px;
+    font-weight: 700;
+    text-decoration:underline;
+}
+.contact{   
+      position: absolute;
+    top: 2300px;
+    left:400px;
+
+}
+.contact.jjj{
+    position: absolute;
+    top: 2000px;
+    left:400px;
+.contact[placeholder]{
+margin-left: 30px;
+}
+
+}
+.footer{
+background-color: #333367;
+position: absolute;
+    top: 2500px;
+    left:400px;
+}
+.menu{
+    border: none;
+    background: none;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+}
